@@ -54,26 +54,83 @@ main {
 
 /* Headings  */
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     text-transform: uppercase;
-    font-size:6rem;
     margin: 0;
-    letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    text-align: center;
+    font-family: 'Alfa Slab One', Garamond, serif;
+    color: darkred;
+    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
+}
+h1 {
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
 }
 
+h2 {
+    font-size: 3rem;
+    letter-spacing: .25rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+h4 {
+    font-size: 1.5rem;
+    letter-spacing: .25rem;
+    font-weight: normal;
+    padding-bottom: 1.8rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    text-align: center;
+    padding: 0.8rem;
+    color: #fff;
+    background-color: #333;
+}
 
 /* Section & Paragraph */
+section {
+    margin-top: 0.8rem;
+}
 
-
+p {
+    margin: 1.6rem auto;
+    padding: 0 1.6rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
+figure {
+    margin-bottom: 3.2rem;
+}
 
+img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80rem;
+}
 
+figcaption {
+    padding-top: 0.8rem;
+    text-align: right;
+}
 
 /* Footer */
+footer {
+    padding: 1.6rem;
+    border-top: 3.2rem solid #333;
+}
 
 
